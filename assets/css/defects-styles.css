@@ -1,0 +1,86 @@
+section.defects{
+	background-color: white;
+	padding-bottom: 40px;
+	margin-top: 20px;
+	border-radius: 5px;
+}
+section.defects div.defect{
+	display: flex;
+	flex-wrap: wrap;
+}
+section.defects div.defect div {
+	width: 480px;
+	position: relative;
+}
+section.defects div.defect div h3{
+	text-align: center;
+}
+section.defects div.defect div img{
+	width: 240px;
+	margin: 0 auto;
+	display: block;
+	animation: img_defect_shake 10s;
+	animation-iteration-count: infinite;
+}
+
+section.defects div.defect div h3 + p{
+	font-size: 0.9em;
+	font-style: italic;
+	padding: 20px 20px 50px 20px;
+	text-align: justify;
+}
+section.defects div.defect div p.price{
+	position: absolute;
+	top: 20px;
+	right: 80px;
+	color: rgb(202, 44, 55);
+	font-weight: bold;
+	font-size: 1.2em;
+	box-shadow: 5px 5px 10px 5px #40739e;
+	padding: 5px;
+	border: 2px solid #40739e;
+	border-radius: 5px;
+	background-color: white;
+	animation: price_animation 5s infinite;
+}
+
+section.defects div.callback {
+	width: 480px;
+	margin: 0 auto;
+	background-color: #40739e;
+	border-radius: 20px;
+}
+section.defects div.callback form {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 260px;
+}
+section.defects div.callback form label {
+	text-align: left;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 0.8em;
+	padding-left: 84px;
+}
+
+section.defects div.callback form input {
+	width: 300px;
+	padding: 5px;
+	border-radius: 10px;
+	font-size: 1.1em;
+	margin: 0 auto;
+	background-color: #ecf0f1;
+}
+
+section.defects div.callback form button {
+	margin: 20px auto;
+}
+section.defects div.callback h3{
+	text-align: center;
+	font-size: 1.2em;
+	color: white;
+	padding: 20px;
+	text-transform: uppercase;
+}

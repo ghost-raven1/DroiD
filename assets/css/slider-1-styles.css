@@ -1,0 +1,48 @@
+/* Слайдер #1 */
+section.slider_one{
+	background-color: white;
+	height: 700px;
+	margin-top: 20px;
+	border-radius: 5px;
+}
+section.slider_one h2{
+	color: white;
+	padding: 12px 0;
+}
+section.slider_one .slider{
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+section.slider_one .slider img{
+	width: 800px;
+	height: 500px;
+	display: block;
+	border-radius: 30px;
+}
+section.slider_one .slider input[type="radio"]{
+	display: none;
+}
+section.slider_one .slider label{
+	display: block;
+	width: 20px;
+	height: 20px;
+	background-color: #bbb;
+	border-radius: 50%;
+	margin: 10px;
+	z-index: 9;
+	position: relative;
+	top: 500px;
+}
+section.slider_one .slider div.slider-item{
+	display: none;
+	position: absolute;
+	top: 0;
+
+}
+section.slider_one .slider input[type="radio"]:checked + label {
+	animation: label_checked 4s infinite;
+}
+section.slider_one .slider input[type="radio"]:checked + label + div.slider-item{
+	display: block;
+}

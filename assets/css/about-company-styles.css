@@ -1,0 +1,47 @@
+section.about_company{
+	background-color: white;
+}
+section.about_company div.firms{
+	display: flex;
+	justify-content: space-around;
+	padding-bottom: 40px; 
+
+}
+section.about_company div.firms img{
+	width: 150px;
+	border-radius: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+section.about_company div.firms img:hover{
+	animation: pulse_partners 3s infinite;
+	transform: scale(1.1);
+
+}
+section.about_company p.about-text{
+	font-size: 1.2em;
+	font-style: italic;
+	padding: 0 30px;
+	text-align: justify;
+	line-height: 36px;
+}
+section.about_company form{
+	display: flex;
+	flex-direction: column;
+	width: 600px;
+	margin: 0 auto;
+	justify-content: space-around;
+	align-items: center;
+	height: 260px;
+	background: url("../img/chipLogoPicture.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding: 40px 20px;
+	border-radius: 20px;
+}
+section.about_company form input {
+	padding: 15px;
+	border-radius: 5px;
+	background-color: #ecf0f1;
+	font-size: 1.2em;
+	color: #ae27a0;
+}

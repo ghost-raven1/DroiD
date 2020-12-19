@@ -1,0 +1,75 @@
+.btn{
+	width: 200px;
+	border-radius: 5px;
+	padding: 15px;
+	background-color: rgb(178, 157, 228);
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+}
+
+.btn:hover{
+    animation: pulse_btn 3s infinite;
+}
+
+/* Кнопка заказать звонок */
+.btn-callMe{
+	position: fixed;
+	right: 30px;
+	bottom: 30px;
+	width: 120px;
+	height: 120px;
+}
+
+.btn-callMe button{
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	border: 1px solid transparent;
+	box-shadow: 0 0 0 rgba(0, 0, 0, 0.4);
+}
+
+.btn-callMe button img{
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+}
+
+.btn-callMe button:hover{
+    animation: pulse_btn 2s infinite;
+}
+
+/* Кнопка вверх */
+.btn-upToTop{
+	position: fixed;
+	left: 30px;
+	bottom: 30px;
+	width: 120px;
+	height: 120px;
+}
+
+.btn-upToTop button{
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	border: 1px solid transparent;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.6);
+    background-color: rgb(207, 195, 216);
+    text-shadow: 3px 3px 3px rgb(207, 195, 216);
+    font-weight: bold;
+}
+
+.btn-upToTop button:hover{
+    animation: upToTop_btn 2s infinite;
+}
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}

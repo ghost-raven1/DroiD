@@ -1,0 +1,77 @@
+header {
+	width: 100%;	/* Ширина */
+	height: 90px;	/* Высота */
+	background-color: #f1f1f1;
+	min-width: 960px; /* Минимальная ширина */
+	position: fixed;
+	z-index: 10;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+}
+header section.container {
+	display: flex;					/* Делает элемент flex-контейнером*/
+	justify-content: space-between;	/* Выравнивает потомков с одинаковым расстоянием между друг другом*/
+}
+header section.container div.logo{
+	padding: 10px 0;
+}
+header section.container div.logo img{
+	height: 50px;
+}
+header section.container nav ul {
+	list-style-type: none;		/* Определяет вид маркеров списка */
+	display: flex;
+}
+header section.container nav ul li a {
+	align-items: center;
+	margin: 0 5px;
+	padding: 10px 10px;
+	text-decoration: none;		/* "Убирает подчеркивание гиперссылок" */
+	color: rgb(82, 116, 226);				/* Цвет текста */
+	line-height: 40px;			/* Межстрочный интервал*/
+	font-size: 1.2em;			/* Размер шрифта px, pt, em */
+	display: inline-block;		/* Отображант элемент как строчно-блочный */
+}
+header section.container nav ul li a:hover {
+	color: #ffffff;
+	font-weight: 300;
+	background-color: royalblue;
+	border: 1px solid rgb(97, 123, 201);
+	border-radius: 5px;
+	cursor: pointer;
+	animation: header_nav 3s infinite;
+}
+
+header section.container div.info{
+	display: flex;
+}
+header section.container div.info div.mode{
+	padding: 5px 0;
+}
+header section.container div.info div.mode p{
+	line-height: 20px;
+	font-size: 0.9em;	
+}
+header section.container div.info div.social {
+	display: flex;
+	flex-direction: column; /* Определяет направление главной оси */
+	padding: 5px 0 5px 20px;
+}
+header section.container div.info div.social a{
+	line-height: 20px;
+	text-decoration: none;
+	color: rgb(104, 132, 224);
+}
+header section.container div.info div.social a:hover{
+	color: #003af7;
+}
+
+.progress-container {
+	width: 100%;
+	height: 8px;
+	background: #ccc;
+}
+.progress-bar {
+	height: 8px;
+	background: #848cfa;
+	width: 0%;
+  }

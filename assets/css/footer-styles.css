@@ -1,0 +1,43 @@
+/*Футер*/
+footer {
+	width: 100%;
+	background-color: #3f8ae0;
+	min-width: 960px;
+}
+
+footer section.container{
+	display: flex;
+	justify-content: space-between;
+}
+
+footer section.container div,
+footer section.container nav {
+	padding: 20px 10px;
+}
+
+footer section.container div {
+	font-size: 0.8em;
+	color: white;
+	line-height: 20px;
+	text-align: justify;
+}
+
+footer section.container nav{
+	font-size: 0.85em;
+}
+
+footer section.container nav ul{
+	list-style-type: none;
+}
+
+footer section.container nav ul li a{
+	display:block;
+	text-decoration: none;
+	padding: 5px 0;
+	color: #ffeaa7;
+}
+
+footer section.container nav ul li a:hover{
+	text-decoration: none;
+	color: white;
+}

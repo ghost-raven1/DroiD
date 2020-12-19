@@ -1,0 +1,42 @@
+section.advantages{
+	background-color: #40739e;
+	border-radius: 5px;
+}
+section.advantages h2{
+	color: white;
+}
+
+section.advantages div.advantage {
+	display: flex;
+	color: white;
+	border-radius: 5px;
+}
+
+section.advantages div.advantage div{
+	padding: 30px 0; 
+	width: 240px;
+}
+section.advantages div.advantage div img {
+	width: 140px;
+	margin: 0 auto;
+	display: block;
+	border-radius: 50%;
+	background-color: white;
+}
+section.advantages div.advantage div h3{
+	text-align: center;
+	padding: 10px 0;
+}
+section.advantages div.advantage div p{
+	text-align: justify;
+	padding: 15px;
+	font-size: 0.9em;
+}
+section.advantages div.advantage div:hover{
+	background-color: white;
+	color: #40739e;
+	border-radius: 5px;
+}
+section.advantages div.advantage div:hover img{
+	background-color: #40739e;
+}
